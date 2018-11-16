@@ -1,0 +1,21 @@
+  .sale-catalog {
+    width: 235px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    .menu {
+      padding-top: 7px;
+      .item {
+font-size: 14px;
+        color: #1b1b1b;
+        margin-bottom: 6.7px;
+        .link{
+          cursor: pointer;
+        }
+        .link-active{
+          color: $darkgreen;
+          border-bottom: 1px solid $darkgreen;
+        }
+      }
+    }
+  }

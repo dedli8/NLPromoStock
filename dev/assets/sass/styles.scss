@@ -1,0 +1,20 @@
+@import 'settings';
+@import 'mixins';
+.nl-stock{
+  @import 'reset';
+  font-family: $ubuntu;
+  font-weight: 300;
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 0 40px;
+    @include media($width-max){
+      padding: 0;
+    }
+  }
+  @import "../../components/bannerlevel2/_bannerlevel2.scss";
+  @import "../../components/stock/_stock.scss";
+  @import "../../components/stock/__salecatalog/__salecatalog.scss";
+  @import "../../components/stock/__salelist/__salelist.scss";
+}

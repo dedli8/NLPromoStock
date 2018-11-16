@@ -1,0 +1,81 @@
+.sale-list{
+  display: inline-block;
+  width: 745px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 0;
+  //padding-left: 16px;
+  box-sizing: border-box;
+  .banner{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 17px;
+  }
+  .sale-item{
+    //margin-right: 16px;
+    vertical-align: top;
+    height: 245px;
+    text-align: left;
+    width: 237px;
+    box-sizing: border-box;
+  position: relative;
+    color: #7e7e7e;
+    margin-bottom: 16px;
+    border: 1px solid #d0d1d3;
+    padding: 10px;
+    display: inline-block;
+    &:nth-of-type(3n+3){
+      margin: 0 17px 0 17px;
+    }
+    .pic{
+      height: 140px;
+      display: block;
+      margin: 0 auto;
+    }
+    .percent{
+      width: 48px;
+      height: 48px;
+      background-size: cover;
+     background-color: #ff2815;
+      text-align: center;
+      font-size: 32.1px;
+      color: white;
+      line-height: 50px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 50%;
+      font-family: Arial, sans-serif;
+    }
+    .period{
+      font-size: 10px;
+      margin-bottom: 5px;
+    }
+    .line{
+      width: 25px;
+      height: 1px;
+      background-color: #a2a4a8;
+      margin-bottom: 5px;
+    }
+    .name{
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    .desc{
+      font-size: 10px;
+      margin-bottom: 14px;
+    }
+    .link-btn{
+      border: 1px solid $darkgreen;
+      color: #009a49;
+      text-align: center;
+      font-size: 12px;
+      line-height: 16px;
+      display: inline-block;
+      width: 93px;
+      height: 20px;
+      box-sizing: border-box;
+    }
+  }
+}
